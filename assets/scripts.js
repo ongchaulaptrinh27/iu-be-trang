@@ -2543,7 +2543,7 @@ function triggerSceneActivation(t) {
 }
 const img = new Image();
 img.src =
-  "https://github.com/Panbap/anh/blob/main/error/myheartv1a1.png?raw=true";
+  "https://sf-static.upanhlaylink.com/img/image_202510015f372c0e4db32af55dcfcfb11b4eb69c.jpg";
 img["style"].display = "none";
 img["onload"] = () => {
   img.style.display = "block";
@@ -2674,4 +2674,5 @@ controls["addEventListener"]("change", () => {
     userHasMovedCamera = true;
   }
 });
+
 
